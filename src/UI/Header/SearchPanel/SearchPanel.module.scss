@@ -1,0 +1,50 @@
+@import "../../../variables.scss";
+
+.SearchPanel_main_container {
+    width: 100%;
+    background-color: $background_secondary;
+    display: flex;
+    justify-content: center;
+}
+.SearchPanel_container {
+    width: 1285px;
+}
+.search_panel {
+    width: 100%;
+    // height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    // padding-right: 10px;
+}
+
+.search_input {
+    // width: 1000px;
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    height: 46px;
+    background:none;
+}
+.clinics_btn {
+    margin-left: -30px;   
+}
+.btn_basket {
+    border-radius: 0;
+}
+.search_input_container {
+    height: 100%;
+    width: 68%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.clinics_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

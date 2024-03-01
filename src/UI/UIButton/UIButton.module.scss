@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 30px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    gap: 5px;
+
+}
+.btn_main {
+    background: $main;
+    .btn_active {
+        background: white;
+        color: black;
+    }
+}
+.btn_gradient {
+    background: linear-gradient(90deg, rgba(12,102,156,1) 0%, rgba(59,186,194,1) 100%);
+}
+.btn_secondary {
+    background: none;
+    color: black;
+}

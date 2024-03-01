@@ -1,0 +1,36 @@
+@import "../../../variables.scss";
+
+.HeaderNavbar_main_container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HeaderNavbar_container {
+    width: 1285px;
+}
+.hr {
+    width: 100vw;
+    height: 5px;
+    background: $background_secondary;
+    border: none;
+}
+.navbar {
+}
+.navbar_list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.navbar_element {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+}
